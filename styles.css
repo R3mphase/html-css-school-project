@@ -1,5 +1,4 @@
-/* OBRÁZKY, NADPISY, PARAGRAFY A JINÉ TEXTY*/
-
+/* HLAVNÍ OBRÁZEK, NADPISY, PARAGRAFY A JINÉ TEXTY*/
 /* Header pro první stránku */
 h1{
     font-family: Pacifico, sans-serif;
@@ -34,6 +33,7 @@ p, li{
     font-size: 20px;
     color: rgb(107, 107, 82);
 }
+/* Pozadí pro main page */
 .mainbgimg{
     background-position-x: -5cm;
     background-position-y: -10cm;
@@ -71,7 +71,6 @@ nav a {
     color:beige;
     text-decoration: none;
 }
-
 /* Stylizace div tagů */
 .divLeft{
     border: 3px outset darkslategray;
@@ -149,4 +148,15 @@ footer a{
 }
 footer p{
     color: beige;
+}
+
+/* FORMÁTOVÁNÍ OBRÁZKŮ */
+/* Zarovnávání */
+.imgLeft{
+    margin-left: 160px;
+    margin-top: 20px;
+}
+.imgRight{
+    margin-right: 150px;
+    margin-top: 20px;
 }
